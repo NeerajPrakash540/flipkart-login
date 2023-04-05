@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+#navbar{
+    background-color: #3074f4;
+}
+
+
+.flipkart-logo {
+    width: 80px;
+    height: 50px;
+}
+
+#search {
+    width: 1500px;
+    position: relative;
+}
+
+#search-bar {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 8px 40px 8px 20px;
+    border: none;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+#search button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+#search-bar button i {
+    color: rgb(93, 94, 95);
+}
+
+#search-bar button:hover i {
+    color: rgb(162, 163, 163);
+}
+
+#one-section{
+    margin-top: 30px;
+}
+
+#one-section-col a {
+    text-decoration: none;
+    color: black;
+}
+
+#card-layout {
+    background-color: aliceblue;
+}
+
+#carousel-item img {
+    height: 400px;
+}
+
+.icici-image {
+    margin-left: 180px;
+}
+
+#top-offers {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#top-offers-button {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+#top-offers-image {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#three-section-img img {
+    height: 250px;
+}
+
+.span-1 {
+    color: green;
+}
+
+.span-2 {
+    color: grey;
+}
+
+.span-3 {
+    color: darkgrey;
+}
+
+.span-4 {
+    color: blue;
+}
+
+#grow {
+    transition: all .2s ease-in-out;
+}
+
+#grow:hover {
+    transform: scale(1.1);
+}
+
+#top-deals {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#top-deals-button {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+#five-section-img img {
+    height: 250px;
+}
+
+#deals-electronics {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#deals-electronics-button {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+#deals-electronics-image {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#seven-section-img img {
+    height: 250px;
+}
+
+#best-fashion {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#best-fashion-button {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+#ten-section-img img {
+    height: 250px;
+}
+
+#twelth-section-heading p {
+    text-decoration: none;
+}
+
+#best-deals-electronics {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#best-deals-electronics-button {
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+#best-deals-electronics-image {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#thirteen-section-img img {
+    height: 250px;
+}
+
+#recently-viewed {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#recently-viewed-button {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#seventeen-section-img img {
+    height: 250px;
+}
+
+
+#discount-price {
+    text-decoration: line-through;
+}
+
+.brand-directory {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    background-color: #212121;
+}
+
+.footer-one-section h6 {
+    color: grey;
+}
+
+#footer-one-about a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-mail-us {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-one-about a:hover {
+    text-decoration: none;
+}
+
+.hr-line {
+    color: grey;
+}
+
+.footer-two-section {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-two-section i {
+    text-decoration: none;
+    color: orange;
+}
